@@ -1,7 +1,8 @@
-package server;
+package Handler;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import server.MyMessageInfo;
 
 public class NettyClientHandler extends ChannelInboundHandlerAdapter {
     @Override

@@ -1,8 +1,9 @@
-package server;
+package Handler;
 
 import com.sun.nio.sctp.MessageInfo;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
+import server.MyMessageInfo;
 
 import java.util.ArrayList;
 import java.util.List;
