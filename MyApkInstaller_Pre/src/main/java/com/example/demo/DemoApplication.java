@@ -18,5 +18,7 @@ public class DemoApplication implements CommandLineRunner {
 
         new Thread(new Hotplugger()).start();
         Thread.currentThread().join();
+        boolean a;
+
     }
 }

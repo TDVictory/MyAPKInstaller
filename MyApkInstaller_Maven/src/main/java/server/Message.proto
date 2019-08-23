@@ -1,0 +1,10 @@
+syntax = "proto3";
+option java_outer_classname = "MyMessageInfo";
+message DeviceInfo {
+    repeated Device devices = 1;
+}
+
+message Device {
+    string deviceID = 1;
+    repeated string apkName = 2;
+}
